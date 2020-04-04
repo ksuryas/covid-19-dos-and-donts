@@ -1,29 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import './index.css';
+import { Switch, Route } from 'react-router';
+import PrecGuide from './components/Route/PrecGuide';
+import HomePage from './components/Route/HomePage';
+import TimeUse from './components/Route/TimeUse';
 
-function App() {
+class App extends Component {
+  render() {
+    let routes = (
+      <Switch>
+        <Route path="/" component={HomePage} exact />
+        <Route path="/precaution-guide" component={PrecGuide} />
+        <Route path="/time-usage" component={TimeUse} />
+      </Switch>
+    );
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          <code>
-            <p>Test</p>
-          </code>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="Text">
+     {routes}
+  </div>
   );
+  }
 }
 
 export default App;

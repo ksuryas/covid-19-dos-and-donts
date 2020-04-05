@@ -1,3 +1,23 @@
-.PrecautionGuide-h1 {
-    text-decoration: underline;
-}
+.Column {
+    float: left;
+    width: 20%;
+    padding: 2px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .Row::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+  }
+  .Row { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .Image {
+    width: 150px;
+    height: 125px;
+    margin-left: 122px;
+  }

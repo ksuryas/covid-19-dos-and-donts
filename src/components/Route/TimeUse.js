@@ -1,16 +1,13 @@
 import React from 'react';
 import TimeUsage from '../TimeUsage/TimeUsage';
-import NavBar from '../NavBar';
-import Footer from '../Footer/Footer';
 
-const TimeUse = () => (
-    <div className="Text">
-    <NavBar />
+const TimeUse = () => {
+
+  return (
+    <div>
     <TimeUsage />
-    <br />
-    <br /> 
-   <Footer />
- </div>
-);
+   </div>
+   );
+  };
 
 export default TimeUse;

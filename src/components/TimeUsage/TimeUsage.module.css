@@ -1,0 +1,19 @@
+.TimeUsage {
+    margin-top: 0px;
+    padding-top: 0px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.TimeUsageText {
+    text-align: left;
+    font-size: 25px;    
+}
+
+.TimeUsageImage {
+    width: 45%;
+    height: 40%;
+    position: relative;
+    top: -400px;
+    float: right;
+}

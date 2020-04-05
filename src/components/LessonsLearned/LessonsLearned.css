@@ -1,0 +1,6 @@
+.Bullets {
+    list-style-type: '* ';
+    text-align: left;
+    margin-left: 4px;
+    font-size: large;
+}

@@ -20,7 +20,7 @@ class App extends Component {
       </Switch>
     );
   return (
-    <div className="Text">
+    <div className="Container">
       <NavBar />
      {routes}
     </div>

@@ -1,4 +1,8 @@
-.Recovery {
+.Bullets {
+   height: 75%; 
+}
+
+.BulletPoints {
     text-align: left;
 }
 
@@ -8,5 +12,9 @@
 
 .MoreFAQForAnchor {
     text-decoration: none;
-    color: darkgoldenrod;
+}
+
+.MoreFAQForIframe {
+    width: 75%;
+    height: 25%;
 }

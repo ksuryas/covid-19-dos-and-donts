@@ -1,19 +1,25 @@
-.TimeUsage {
-    margin-top: 0px;
-    padding-top: 0px;
-    align-items: center;
-    overflow: hidden;
+
+
+.TimeUsageImage {
+    width: 40vw;
+    height: 30vw;
+    position: relative;
+    float: right;
+    padding-right: 10px;
 }
 
 .TimeUsageText {
     text-align: left;
-    font-size: 25px;    
+    font-size: 3vw;  
+    float: left;
+    width:30%  
 }
 
-.TimeUsageImage {
-    width: 45%;
-    height: 40%;
-    position: relative;
-    top: -400px;
-    float: right;
-}
+@media only screen and (min-width: 768px) {
+    .TimeUsageText {
+        text-align: left;
+        font-size: 1.5vw;  
+        float: left;
+        width:30%  
+    }
+    }

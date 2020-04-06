@@ -3,9 +3,7 @@ import '../../index.css';
 import LessonsLearned from '../LessonsLearned/LessonsLearned';
 
 const CoronavirusTaughtUs = () => (
-    <div className="Text">
-      <LessonsLearned />
-   </div>
+   <LessonsLearned />
 );
 
 export default CoronavirusTaughtUs;

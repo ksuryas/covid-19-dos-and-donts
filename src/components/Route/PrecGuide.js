@@ -3,11 +3,7 @@ import '../../index.css';
 import PrecautionGuide from '../Precautions/PrecautionGuide/PrecautionGuide';
 
 const PrecGuide = () => (
-    <div>
-      <PrecautionGuide /> 
-      <br />
-      <br />
-   </div>
+   <PrecautionGuide />
 );
 
 export default PrecGuide;

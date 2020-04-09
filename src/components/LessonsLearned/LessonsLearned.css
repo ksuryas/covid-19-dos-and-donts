@@ -7,9 +7,6 @@
 
 @media only screen and (min-width: 768px) {
     .Bullets {
-        list-style-type: '* ';
-        text-align: left;
-        margin-left: 4px;
         font-size: 1.5vw;
     }
 }

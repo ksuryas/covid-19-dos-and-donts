@@ -7,15 +7,14 @@ class LessonsLearned extends Component {
         return (
             <div className="MainContent">
                 <h2>Environmental Benefits Achieved</h2>
-                <ul className="SpacingUL">
+                <ul>
                     <li className="Bullets">Pollution has reduced immensely</li>
                     <li className="Bullets">Cleaner Air and Clearer Water</li>
                     <li className="Bullets">Less Harmful Gas Emissions</li>
                     <li className="Bullets">Plants are Healthier</li>
                     <li className="Bullets">Birds and Animals feel "at home"</li>
                 </ul>
-
-                <h2 className="SpacingH2">Lessons Learned</h2>
+                <h2>Lessons Learned</h2>
                 <ul>
                     <li className="Bullets">Protect our environment and treat the nature well</li>
                     <li className="Bullets">Power, beauty, and money are worthless and can't get you the awesome gift of life</li>

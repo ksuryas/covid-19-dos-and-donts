@@ -14,7 +14,7 @@
   margin-bottom: 0px;
 }
 
-.NavBar a:hover{
+.NavBar a:hover {
   background-color:white;
   color: red;
 }
@@ -32,7 +32,8 @@
   width: 100%;
   height:20vw;
 }
-@media only screen and (min-width: 768px){
+
+@media only screen and (min-width: 768px) {
 .NavBar {
     width: 22%;
     font-size: 1.5vw;

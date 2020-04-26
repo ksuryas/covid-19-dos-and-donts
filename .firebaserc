@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "covid101-by-suryak"
+    "default": "covid101-by-suryak-us",
+    "production": "covid101-by-suryak-us"
   }
 }

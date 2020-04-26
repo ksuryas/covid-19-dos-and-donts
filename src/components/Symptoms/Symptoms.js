@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import classes from './Symptoms.module.css';
 import '../../index.css';
 
-class Symptoms extends Component {
-  render() {
+const Symptoms = () => {
     return (
       <div className="MainContent">
         <div className={classes.Bullets}>
@@ -49,7 +48,6 @@ class Symptoms extends Component {
         {/* More FAQ Group Above */}
       </div>
     );
-  }
-}
+};
 
 export default Symptoms;

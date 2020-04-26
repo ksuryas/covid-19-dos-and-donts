@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './LessonsLearned.css';
 import '../../index.css';
 
-class LessonsLearned extends Component {
-    render() {
+const LessonsLearned = () => {
         return (
             <div className="MainContent">
                 <h2>Environmental Benefits Achieved</h2>
@@ -28,7 +27,6 @@ class LessonsLearned extends Component {
                 </ul>
             </div>
         );
-    }
  };
 
 export default LessonsLearned;

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import classes from './TimeUsage.module.css';
 import TimeTogether from '../../assets/backgroundImages/TimeUse.jpg';
 import '../../index.css';
-class TimeUsage extends Component {
-    render() {
+
+const TimeUsage = () => {
         return (
             <div className="MainContent">
                 <h1>11 Ways to Use your Time Effectively during Quarantine (Lockdown)</h1>
@@ -25,7 +25,6 @@ class TimeUsage extends Component {
                 <img className={classes.TimeUsageImage} alt="Time Together" src={TimeTogether} />
             </div>
         );
-    }
 };
 
 export default TimeUsage;
